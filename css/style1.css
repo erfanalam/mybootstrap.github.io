@@ -1,0 +1,196 @@
+@charset "utf-8";
+/* CSS Document */
+/*header-fast-part-start*/
+	.container-fluid{ 
+	 	height: 50px;
+	   padding: 0;
+	   margin: 0;
+	   background-color: #000
+	  
+	 }
+	
+	.menu01{
+		margin:0;	
+	}
+	
+	.menu1{	
+		height: 40px;
+		line-height: 3;
+	}
+	
+	.freeshipping, .mail, .callnumber{
+		color:#3F0;
+	}
+	.freeshipping:hover, .mail:hover, .callnumber:hover{
+		color:#39F;
+	}
+/*header-fast-part-finished*/
+
+/*header-second-part-start*/
+	.header-right{
+		margin-top: 25px;
+	}
+	.h1color, .dollarcolor{
+		color: #18C9D2;
+	}
+	.h1color2, .cartcolor{
+		color: #333333;
+	}
+	.dollarcolor, .cartcolor{
+		font-size:24px;
+	}
+	
+	.cartcolor:hover{
+		color:  #18C9D2;
+	}
+	
+	a.no-underline:hover{							/*this-tag-used-in-header-fast-and-second-part*/
+		text-decoration:none;	
+	}
+/*header-second-part-finished*/
+
+<!---Menu--Start-->
+
+
+
+.mainmenu{
+	border:none;
+	
+}
+.navbar-custom {
+    background-color:#F5F5F5;
+    
+}
+.navbar-custom .navbar-nav > li > a {
+   color: #252525;
+}
+
+
+
+
+.navbar-custom .navbar-nav > li > a:hover,
+.navbar-custom .navbar-nav > li > a:focus,
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus,
+.navbar-custom .navbar-nav > .open >a {
+    text-decoration: none;
+    background-color: #18C9D2;
+	color: #FFF;
+}
+.active{
+	background-color: #18C9D2;
+}
+.navbar-toggle .icon-bar{
+	background-color: #18C9D2;
+}
+.affix {
+     
+	 top: 0;
+	 z-index: 99999 !important;
+}
+
+.nav{
+	margin-left: -14px;
+}
+<!---Menu--End-->
+
+<!--carousel-and--container-space-->
+
+
+.carousel-indicators li { visibility: hidden; }
+.carousel-inner{
+	display:flex;
+}
+
+#div1, #div2, #div3{
+	display: none;
+	
+}
+<!--right--part--of--slider-->
+
+.aaass{
+	padding: 50px;
+}
+.relative{
+	position: relative;
+	transition:all 0.8s ease-out;
+	
+	
+	
+}
+.absoulate, .absoulate1, .absoulate2{
+	
+	width: 150px;
+	height: 100px;
+	position: absolute;
+
+	top: 0;
+    bottom: 0;
+	
+	opacity: 0;
+	padding: 10px;
+	
+	
+}
+.relative:hover .absoulate{
+	
+	transform: scale(1.1);
+	transition: all 0.8s ease-out;
+	opacity: 0.8;
+	margin-left: 200px;
+}
+.relative:hover .absoulate1{
+	
+	transform: scale(1.1);
+	transition: all 0.8s ease-out;
+	opacity: 0.8;
+	margin-left: 115px;
+}
+.relative:hover .absoulate2{
+	
+	transform: scale(1.1);
+	transition: all 0.8s ease-out;
+	opacity: 0.8;
+	margin-left: 100px;
+}
+.relative:hover{
+	
+	transition: all 0.8s ease-out;
+	transform: scale(1.2);
+}
+/* end*/
+.spaces{
+	margin-top: 25px;
+	
+}
+
+
+/*Footer*/
+.bordertrying{
+	
+	border-left: 1px solid #000;
+	height: 150px;
+	
+}
+.marginTOP{
+	    margin-top: 0;
+		margin-bottom: 20px;
+		border-bottom: 1px solid #000;
+	
+}
+
+.fontcolor{
+	color: #FFF;
+}
+.fontcolor:hover{
+	color: #6F0;
+}
+
+.alllinks{
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+a{
+	color:#366
+}
+

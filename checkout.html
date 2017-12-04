@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bootstrap 101 Template</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/final01.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+     <!---Header--->
+		<div class="container-fluid">
+            <div class="row head01">
+                <div class="col-sm-12">						
+					<div class="head-content text-center">
+							<a class="callnumber no-underline pull-left"><span class="glyphicon glyphicon-earphone"></span>Call us: +0812015358</a>
+							<a class="freeshipping no-underline"><span class="glyphicon glyphicon-gift"></span>Free shipping on order over 500$</a>
+							<a class="mail no-underline pull-right"><span class="glyphicon glyphicon-envelope"></span> info@nouva.com</a>
+					</div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="header">
+                <a class="header-left no-underline pull-left" href="index.html"><h1><span class="h1color">NUEVO</span> <span class="h1color2">SHOP</span></h1></a>
+                <a class="header-right no-underline pull-right"><span class="dollarcolor">$0.00(0 items)</span><span class="glyphicon glyphicon-shopping-cart cartcolor"></span></a>
+           </div>
+        </div>
+    <!---Header-Ending--->
+	
+<!---Menu-Start-->
+    <div class="container spaces">
+        <nav class="navbar navbar-custom" data-spy="affix" data-offset-top="140">
+            <div class="container">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+
+                </button>
+
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="final.html">Home</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">New Arrival<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Page 1-1</a></li>
+                            <li><a href="#">Page 1-2</a></li>
+                            <li><a href="#">Page 1-3</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Men's Wear</a></li>
+                    <li><a href="#">Women's Wear</a></li>
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><button class="btn btn-info button01">Sign Up</button></li>
+                    <li><button class="btn btn-info button01" data-toggle="modal" data-target="#myModal">Sign In</button></li>
+               </ul>
+			</div>
+		</nav>
+    </div>
+<!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Log In Now</h4>
+        </div>
+        <div class="modal-body">
+          <form role="form">
+          	<div class="form-group">
+            	<label for="email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter Your Email">
+                <label for="Password">Password</label>
+                <input type="password" class="form-control" id="password" placeholder="Enter Your Password">
+            </div>
+            
+          </form>
+        </div>
+        <div class="modal-footer">
+        	<button type="button" class="btn btn-info" data-dismiss="modal">Login</button>
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+</div>    
+<!---Menu-End-->
+<!---Checkout-start-->
+	<div class="container fixingdiv">
+    	<div class="row">
+        <div class="col-md-9">
+    	<div class="table-responsive">
+    		<table class="table table-hover">
+        		<h1 align="center">Shopping Cart</h1>
+               	<thead>
+            		<th>Product</th>
+                	<th>Description</th>
+                	<th>Price</th>
+                	<th>Quantity</th>
+                	<th>Total</th>
+                </thead>
+                <tbody>
+                	<tr>
+                		<td><img src="images/8.jpg" class="img-responsive imgsizing"/></td>
+                        <td>
+							<li><h4><b>LOREM IPSUM IS NOT SIMPLY</b></h4></li>
+							<li><b>Pickup time: 10:00am</b></li>
+							<li><p>Free Delivery</p></li>
+							<li><h4>Service Charges: $10.00</h4></li>
+							<li><h4>Delivered in 12:00 hours</h4></li>
+						</td>
+                        <td>$12.99</td>
+                        <td><input type="number" value="2" min="1"></td>
+                        <td><li>$12.99</li>		
+						</td>
+						<td><li><button type="button" class="close" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+								</button>
+							</li>
+						</td>
+                	</tr>
+                    <tr>
+                		<td><img src="images/11.jpg" class="img-responsive imgsizing"/></td>
+                        <td>
+							<li><h4><b>LOREM IPSUM IS NOT SIMPLY</b></h4></li>
+							<li><b>Pickup time: 10:00am</b></li>
+							<li><p>Free Delivery</p></li>
+							<li><h4>Service Charges: $10.00</h4></li>
+							<li><h4>Delivered in 12:00 hours</h4></li>
+						</td>                        
+						<td>$12.99</td>
+                        <td><input type="number" value="2" min="1"></td>
+                        <td>$12.99</td>
+						<td><li><button type="button" class="close" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+								</button>
+							</li>
+						</td>
+                	</tr>
+					<tr>
+                		<td><img src="images/d3.jpg" class="img-responsive imgsizing"/></td>
+                        <td>
+							<li><h4><b>LOREM IPSUM IS NOT SIMPLY</b></h4></li>
+							<li><b>Pickup time: 10:00am</b></li>
+							<li><p>Free Delivery</p></li>
+							<li><h4>Service Charges: $10.00</h4></li>
+							<li><h4>Delivered in 12:00 hours</h4></li>
+						</td>
+                        <td>$12.99</td>
+                        <td><input type="number" value="2" min="1"></td>
+                        <td>$12.99</td>
+						<td><li><button type="button" class="close" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+								</button>
+							</li>
+						</td>
+                	</tr>
+                </tbody>
+        	</table>    		          
+           </div>
+            
+           
+           </div>
+            <div class="col-md-3 makingdown">
+            	<a class="continue" data-offset-top="50" href="#">Continue to Shopping</a>
+            	<div class="price-details">
+                	<h3>Price Details</h3>
+                    <span>Total</span>
+                    <span class="total1">520.00</span>
+                    <span>Discount</span>
+                    <span class="total1">---</span>
+                    <span>Delivery Charges</span>
+               
+                    <span class="total1">100.00</span>
+                    <div class="clearfix"></div>
+                </div>
+                    <ul class="total_price">
+                    	<li class="last_price">Total</li>
+                        <li class="last_price">520.00</li>
+                    <div class="clearfix"></div>
+                    </ul>
+                     <div class="clearfix"></div>
+                     <a class="order"  data-toggle="modal" data-target="#myModal">Place order</a>
+                     <div class="total-item">
+                        <input class="coupons" type="text" placeholder="COUPONS"/>
+                        <a class="cpns" href=""#>Apply Coupons</a>
+                     </div>
+                </div>
+            </div>
+        </div>
+	</div>
+	
+
+
+<!--start-footer-->
+	     <div class="footer">
+		   <div class="container spaces">
+			<div class="footer-top spaces">
+				<div class="col-md-3 footer-left">
+					<div class="top"><h3 class="listhead">About Us</h3>
+					<ul class="list-unstyled">
+						<li><a class="no-underline" href="#">Who We Are</a></li>
+						<li><a class="no-underline" href="contact.html">Contact Us</a></li>
+						<li><a class="no-underline" href="#">Our Sites</a></li>
+						<li><a class="no-underline" href="#">In The News</a></li>
+						<li><a class="no-underline" href="#">Carrers</a></li>					 
+					</ul>
+                    </div>
+				</div>
+				<div class="col-md-3 footer-left">
+					<div class="top"><h3 class="listhead">Your Account</h3>
+					<ul class="list-unstyled">
+						<li><a class="no-underline" href="account.html">Your Account</a></li>
+						<li><a class="no-underline" href="#">Personal Information</a></li>
+						<li><a class="no-underline" href="contact.html">Addresses</a></li>
+						<li><a class="no-underline" href="#">Discount</a></li>
+						<li><a class="no-underline" href="#">Track your order</a></li>					 					 
+					</ul>
+                    </div>
+				</div>
+				<div class="col-md-3 footer-left">
+					<div class="top"><h3 class="listhead">Shopping</h3>
+					<ul class="list-unstyled">
+						<li><a class="no-underline" href="#">Accesories</a></li>
+						<li><a class="no-underline" href="#">Books</a></li>
+						<li><a class="no-underline" href="#">Cloths</a></li>
+						<li><a class="no-underline" href="#">Bags</a></li>
+						<li><a class="no-underline" href="#">Shoes</a></li>					 
+					</ul>
+                    </div>
+				</div>
+				<div class="col-md-3">
+					<div class="top"><h3 class="listhead">Categories</h3>
+					<ul class="list-unstyled">
+						<li><a class="no-underline" href="#">Sports Shoes</a></li>
+						<li><a class="no-underline" href="#">Casual Shorts</a></li>
+						<li><a class="no-underline" href="#">Formal Shoes</a></li>
+						<li><a class="no-underline" href="#">Party Wear</a></li>
+						<li><a class="no-underline" href="#">Ethnic Wear</a></li>				 
+					</ul>
+                    </div>
+				</div>
+				
+			</div>
+				
+		</div>
+	</div>
+	<div class="socials">
+				    <a class="soc1" href="#"><i class="fa fa-facebook fa-3x" aria-hidden="true"></i></a>
+				    <a class="soc2" href="#"><i class="fa fa-twitter fa-3x" aria-hidden="true"></i></a>
+				    <a class="soc3" href="#"><i class="fa fa-youtube-play fa-3x" aria-hidden="true"></i></a>
+				</div>
+	 <!--/start-copyright-->
+	 <div class="copy">
+		<div class="container">
+			<p align="center">&copy; 2017 Nuevo Shop. All Rights Reserved | Design by <a href="http://erfanalam.com/">Erfan</a> </p>
+		</div>
+	</div>
+	 <!--//end-copyright-->
+	<!--end-footer-->
+	
+	
+	
+	<!--script--all-->
+	<script>
+	$('#myModal').on('shown.bs.modal', function () {
+  $('#myInput').focus()
+})
+	</script>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
