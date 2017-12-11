@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bootstrap 101 Template</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/final01.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <!---Header--->
+        <div class="container-fluid">
+            <div class="row head01">
+                <div class="col-sm-12">						
+                    <div class="head-content text-center">
+                        <a class="callnumber no-underline pull-left"><span class="glyphicon glyphicon-earphone"></span>Call us: +0812015358</a>
+                        <a class="freeshipping no-underline"><span class="glyphicon glyphicon-gift"></span>Free shipping on order over 500$</a>
+                        <a class="mail no-underline pull-right"><span class="glyphicon glyphicon-envelope"></span> info@nouva.com</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="header">
+                <a class="header-left no-underline pull-left" href="final.html"><h1><span class="h1color">NUEVO</span> <span class="h1color2">SHOP</span></h1></a>
+                <a href="checkout.html" class="header-right no-underline pull-right"><span class="dollarcolor">$0.00(0 items)</span><span class="glyphicon glyphicon-shopping-cart cartcolor"></span></a>
+            </div>
+        </div>
+        <!---Header-Ending--->
+
+        <!---Menu-Start-->
+        <div class="container spaces">
+        <nav class="navbar navbar-custom">
+            <div class="container">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+
+                </button>
+
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="final.html">Home</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="all-products.html">Products<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="all-products.html">Products1</a></li>
+                            <li><a href="all-products.html">Products2</a></li>
+                            <li><a href="all-products.html">Products3</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="single-product.html">Single Product</a></li>
+                    <li><a href="create-account.html">Create Account</a></li>
+                    <li><a href="contact-us.html">Contact US</a></li>
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><button class="btn btn-info button01"><a class="mysignup" href="create-account.html">Sign Up</a></button></li>
+                    <li><button class="btn btn-info button01" data-toggle="modal" data-target="#myModal">Sign In</button></li>
+               </ul>
+			</div>
+		</nav>
+    </div>
+<!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Log In Now</h4>
+        </div>
+        <div class="modal-body">
+          <form class="form-horizontal" role="form">
+          	<div class="form-group">
+            <label for="username" class="col-sm-2 control-label">Username:</label>
+            <div class="col-sm-10"></div>
+            <input type="text" class="form-control" id="username" placeholder="Enter your username here">
+            </div>
+            <div class="form-group">
+            <label for="password" class="col-sm-2 control-label">Password:</label>
+            <div class="col-sm-10"></div>
+            <input type="password" class="form-control" id="password" placeholder="Enter your password here">
+            </div>
+
+
+            
+          </form>
+        </div>
+        <div class="modal-footer">
+        	<button type="button" class="btn btn-info" data-dismiss="modal">Login</button>
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+</div>    
+        <!---Menu-End-->
+        <!--all--product-->
+        <div class="container">
+            <div class="product-grid">
+                <div class="row sizingmargin">
+                    <div class="col-md-4 extraborder spaces">
+                        <h4><button class="catagorybutton">ALL</button></h4>
+                        <div class="left-sidebar">
+
+                            <ul>
+                                <li>WOMEN</li>
+                                <li>NEW FASHIONS</li>
+                                <li>TRENDS</li>
+                                <li>BOYS</li>
+                                <li>GIRLS</li>
+                                <li>SALE</li>
+                            </ul>
+                        </div>
+                        <h4><button class="catagorybutton">CATAGORIES</button></h4>
+                        <div class="catagories">
+
+                            <input type="checkbox">Men's Jackets<br>
+                            <input type="checkbox">Shoes<br>
+                            <input type="checkbox">Glases<br>
+                            <input type="checkbox">Watches<br>
+                            <input type="checkbox">Hand Bags<br>
+                            <input type="checkbox">Bags<br>
+                            <input type="checkbox">Shirts<br>
+                            <input type="checkbox">Tempore<br>
+                            <input type="checkbox">Soluta Nobis<br>
+                        </div>
+                        <h4><button class="catagorybutton">BRAND</button></h4>
+                        <div class="catagories">
+
+                            <input type="checkbox">Lee<br>
+                            <input type="checkbox">Anouk<br>
+                            <input type="checkbox">Tempore<br>
+                            <input type="checkbox">Vishud<br>
+                            <input type="checkbox">Amari<br>
+                            <input type="checkbox">Shree<br>
+                            <input type="checkbox">Biba<br>
+                        </div>
+
+                    </div>
+                    <div class="col-md-8 bottomspace">
+                        <div class="products-grd"><div class="col-md-4 mainproduct"><img class="img-responsive" src="images/p1.jpg"/>
+                                <h4 class="item_add1">Female Bags1</h4>
+                                <p><a class="item_add" href="#"><i class="glyphicon glyphicon-shopping-cart"></i> <span class=" item_price valsa">$729</span></a></p>
+                                <div class="pro-grd">
+                                    <a href="single-product.html">Quick View</a>
+                                </div>   
+                            </div></div>
+                        <div class="products-grd"><div class="col-md-4 mainproduct"><img class="img-responsive" src="images/p2.jpg"/>
+                                <h4 class="item_add1">Female Bags2</h4>
+                                <p><a class="item_add" href="#"><i class="glyphicon glyphicon-shopping-cart"></i> <span class=" item_price valsa">$729</span></a></p>
+                                <div class="pro-grd">
+                                    <a href="single-product.html">Quick View</a>
+                                </div>
+                            </div></div>
+                        <div class="products-grd"><div class="col-md-4 mainproduct"><img class="img-responsive" src="images/p3.jpg"/>
+                                <h4 class="item_add1">Female Bags3</h4>
+                                <p><a class="item_add" href="#"><i class="glyphicon glyphicon-shopping-cart"></i> <span class=" item_price valsa">$729</span></a></p>			<div class="pro-grd">
+                                    <a href="single-product.html">Quick View</a>
+                                </div>
+                            </div></div>
+
+
+                        <div class="products-grd"><div class="col-md-4 mainproduct"><img class="img-responsive" src="images/p4.jpg"/>
+                                <h4 class="item_add1">Female Bags4</h4>
+                                <p><a class="item_add" href="#"><i class="glyphicon glyphicon-shopping-cart"></i> <span class=" item_price valsa">$729</span></a></p>			<div class="pro-grd">
+                                    <a href="single-product.html">Quick View</a>
+                                </div>
+                            </div></div>
+                        <div class="products-grd"><div class="col-md-4 mainproduct"><img class="img-responsive" src="images/p5.jpg"/>
+                                <h4 class="item_add1">Female Bags5</h4>
+                                <p><a class="item_add" href="#"><i class="glyphicon glyphicon-shopping-cart"></i> <span class=" item_price valsa">$729</span></a></p>			<div class="pro-grd">
+                                    <a href="single-product.html">Quick View</a>
+                                </div>
+                            </div></div>
+                        <div class="products-grd"><div class="col-md-4 mainproduct"><img class="img-responsive" src="images/p6.jpg"/>
+                                <h4 class="item_add1">Female Bags6</h4>
+                                <p><a class="item_add" href="#"><i class="glyphicon glyphicon-shopping-cart"></i> <span class=" item_price valsa">$729</span></a></p>			<div class="pro-grd">
+                                    <a href="single-product.html">Quick View</a>
+                                </div>
+                            </div></div>
+
+                        <div class="products-grd"><div class="col-md-4 mainproduct"><img class="img-responsive" src="images/p7.jpg"/>
+                                <h4 class="item_add1">Female Bags1</h4>
+                                <p><a class="item_add" href="#"><i class="glyphicon glyphicon-shopping-cart"></i> <span class=" item_price valsa">$729</span></a></p>			<div class="pro-grd">
+                                    <a href="single-product.html">Quick View</a>
+                                </div>
+                            </div></div>
+                        <div class="products-grd"><div class="col-md-4 mainproduct"><img class="img-responsive" src="images/p8.jpg"/>
+                                <h4 class="item_add1">Female Bags1</h4>
+                                <p><a class="item_add" href="#"><i class="glyphicon glyphicon-shopping-cart"></i> <span class=" item_price valsa">$729</span></a></p>			<div class="pro-grd">
+                                    <a href="single-product.html">Quick View</a>
+                                </div>
+                            </div></div>
+                        <div class="products-grd"><div class="col-md-4 mainproduct"><img class="img-responsive" src="images/p9.jpg"/>
+                                <h4 class="item_add1">Female Bags1</h4>
+                                <p><a class="item_add" href="#"><i class="glyphicon glyphicon-shopping-cart"></i> <span class=" item_price valsa">$729</span></a></p>			<div class="pro-grd">
+                                    <a href="single-product.html">Quick View</a>
+                                </div>
+                            </div>
+							
+							</div>
+                            <ul class="pagination">
+								<li><a href="#">&laquo;</a></li>
+								<li class="active"><a href="#">1</a></li>
+								<li><a href="#">2</a></li>
+								<li><a href="#">3</a></li>
+								<li><a href="#">&raquo;</a></li>
+							</ul>
+						
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--start-footer-->
+        <div class="footer">
+            <div class="container spaces">
+                <div class="footer-top spaces">
+                    <div class="col-md-3 footer-left">
+                        <div class="top"><h3 class="listhead">About Us</h3>
+                            <ul class="list-unstyled">
+                                <li><a class="no-underline" href="#">Who We Are</a></li>
+                                <li><a class="no-underline" href="contact.html">Contact Us</a></li>
+                                <li><a class="no-underline" href="#">Our Sites</a></li>
+                                <li><a class="no-underline" href="#">In The News</a></li>
+                                <li><a class="no-underline" href="#">Carrers</a></li>					 
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 footer-left">
+                        <div class="top"><h3 class="listhead">Your Account</h3>
+                            <ul class="list-unstyled">
+                                <li><a class="no-underline" href="account.html">Your Account</a></li>
+                                <li><a class="no-underline" href="#">Personal Information</a></li>
+                                <li><a class="no-underline" href="contact.html">Addresses</a></li>
+                                <li><a class="no-underline" href="#">Discount</a></li>
+                                <li><a class="no-underline" href="#">Track your order</a></li>					 					 
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 footer-left">
+                        <div class="top"><h3 class="listhead">Shopping</h3>
+                            <ul class="list-unstyled">
+                                <li><a class="no-underline" href="#">Accesories</a></li>
+                                <li><a class="no-underline" href="#">Books</a></li>
+                                <li><a class="no-underline" href="#">Cloths</a></li>
+                                <li><a class="no-underline" href="#">Bags</a></li>
+                                <li><a class="no-underline" href="#">Shoes</a></li>					 
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="top"><h3 class="listhead">Categories</h3>
+                            <ul class="list-unstyled">
+                                <li><a class="no-underline" href="#">Sports Shoes</a></li>
+                                <li><a class="no-underline" href="#">Casual Shorts</a></li>
+                                <li><a class="no-underline" href="#">Formal Shoes</a></li>
+                                <li><a class="no-underline" href="#">Party Wear</a></li>
+                                <li><a class="no-underline" href="#">Ethnic Wear</a></li>				 
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="socials">
+                <a class="soc1" href="#"><i class="fa fa-facebook fa-3x" aria-hidden="true"></i></a>
+                <a class="soc2" href="#"><i class="fa fa-twitter fa-3x" aria-hidden="true"></i></a>
+                <a class="soc3" href="#"><i class="fa fa-youtube-play fa-3x" aria-hidden="true"></i></a>
+            </div>
+            <!--/start-copyright-->
+            <div class="copy">
+                <div class="container">
+                    <p align="center">&copy; 2017 Nuevo Shop. All Rights Reserved | Design by <a href="http://erfanalam.com/">Erfan</a> </p>
+                </div>
+            </div>
+
+            <!--//end-copyright-->
+            <!--end-footer-->
+
+
+
+            <!--script--all-->
+            <script>
+                $('#myModal').on('shown.bs.modal', function () {
+                    $('#myInput').focus()
+                })
+            </script>
+            <script src="js/jquery.min.js"></script>
+            <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
